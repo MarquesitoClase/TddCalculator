@@ -19,6 +19,6 @@ public class Calculator{
     }
 
     public double DoubleDivision(double number1, double number2){
-
+        return number1/number2;
     }
 }
