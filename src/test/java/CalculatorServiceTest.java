@@ -1,11 +1,11 @@
-import calculator.Calculator;
+import calculator.CalculatorService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class CalculatorTest {
-    Calculator calculator = new Calculator();
+public class CalculatorServiceTest {
+    CalculatorService calculator = new CalculatorService();
     @Test
     public void IntegerSumTest(){
         assertEquals(4, calculator.Sum(1, 3));
