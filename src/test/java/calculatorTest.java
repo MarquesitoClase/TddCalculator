@@ -6,6 +6,5 @@ public class calculatorTest {
     Calculator calculator = new Calculator();
     public void IntegerSumTest(){
         assertEquals(4, calculator.Sum(1, 3));
-
     }
 }
