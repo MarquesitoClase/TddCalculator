@@ -12,7 +12,7 @@ public class CalculatorTest {
     }
     @Test
     public void integerRestTest(){
-        assertEquals(1, calculator.Rest(4,1));
+        assertEquals(1, calculator.Rest(4,3));
         assertEquals(-1, calculator.Rest(2, 3));
     }
     @Test

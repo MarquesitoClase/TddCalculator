@@ -19,6 +19,9 @@ public class Calculator{
     }
 
     public double DoubleDivision(double number1, double number2){
+        if(number2 == 0.0){
+            throw new ArithmeticException("No se puede dividir entre 0.");
+        }
         return number1/number2;
     }
 }
