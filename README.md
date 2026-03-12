@@ -1,4 +1,4 @@
 # TddCalculator
 Repository to one Java calculator
 
-![resultTests.png](src/main/resources/img/resultTests.png)
+![Result tests](src/main/resources/img/resultTests.png)
