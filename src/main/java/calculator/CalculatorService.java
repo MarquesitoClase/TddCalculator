@@ -24,7 +24,8 @@ public class CalculatorService {
         }
         return number1/number2;
     }
-    public double integerProduct(int number1, int number2){
-        return number1*number2;
+
+    public int integerSum(int number1, int number2){
+        return number1+number2;
     }
 }
