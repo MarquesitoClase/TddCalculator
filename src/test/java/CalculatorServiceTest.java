@@ -38,4 +38,10 @@ public class CalculatorServiceTest {
         assertEquals(1.0, calculator.DoubleSum(0.0, 1.0));
         assertEquals(0.0, calculator.DoubleSum(1.0, -1.0));
     }
+    @Test
+    public void doubleRestTest(){
+        assertEquals(1.0, calculator.DoubleRest(1.0, 0.0));
+        assertEquals(0.0, calculator.DoubleRest(1.0, 1.0));
+        assertEquals(-1.0, calculator.DoubleRest(0.0, 1.0));
+    }
 }

@@ -28,4 +28,8 @@ public class CalculatorService {
     public double DoubleSum(double number1, double number2){
         return number1+number2;
     }
+
+    public double DoubleRest(double number1, double number2){
+        return number1-number2;
+    }
 }
