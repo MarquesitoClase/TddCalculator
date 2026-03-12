@@ -44,4 +44,11 @@ public class CalculatorServiceTest {
         assertEquals(0.0, calculator.DoubleRest(1.0, 1.0));
         assertEquals(-1.0, calculator.DoubleRest(0.0, 1.0));
     }
+
+    @Test
+    public void doubleProductTest(){
+        assertEquals(4d, calculator.DoubleProduct(2d,2d));
+        assertEquals(-5.0, calculator.DoubleProduct(2.5,-2));
+        assertEquals(4d, calculator.DoubleProduct(2,2));
+    }
 }
