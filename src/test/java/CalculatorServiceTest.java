@@ -33,8 +33,9 @@ public class CalculatorServiceTest {
         assertEquals(2.5, calculator.DoubleDivision(5, 2.0));
         assertThrows(ArithmeticException.class, () -> calculator.DoubleDivision(5, 0));
     }
+    @Test
     public void doubleSumTest(){
-        assertEquals(1.0, calculator.DoubleSum(0.0, 0.1));
+        assertEquals(1.0, calculator.DoubleSum(0.0, 1.0));
         assertEquals(0.0, calculator.DoubleSum(1.0, -1.0));
     }
 }
